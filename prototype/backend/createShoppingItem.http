@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/shoppingItems/create
+Content-Type: application/json
+
+{"name": "Butter"}
+###
+###
+DELETE http://localhost:8080/shoppingItems/delete/66450e8b0766e8a071943d6e
+######
+PUT http://localhost:8080/shoppingItems/update
+Content-Type: application/json
+
+{
+  "_id": "66448b1fc516f1d81f459e1d",
+  "name": "Rice",
+  "__v": 0
+}
+###
